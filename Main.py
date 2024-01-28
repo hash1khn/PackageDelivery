@@ -3,12 +3,9 @@ from PackageHandler import PackageHandler
 from Graph import Graph
 from Truck import Truck
 from datetime import timedelta
-from operator import itemgetter
-from queue import Queue
 from time import sleep
 import datetime
 import time
-import collections
 
 
 # Used for storing package status over time
@@ -705,4 +702,3 @@ while (user_input != "q"):
 
                         # Reset input to "b" to go back to the main menu
                         user_input = "b"
-print('\n----- Thank you for visiting the WGUPS Routing System. Goodbye. -----')
